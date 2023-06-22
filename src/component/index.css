@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color: #000; */
+}
+#heading{
+    text-align: center;
+    color: rgb(253, 82, 168);
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 0.1rem 0.2rem 0.2rem rgba(31, 1, 1, 0.863);
+    margin-top:2%;
+    /* word-wrap: break-word; */
+}
+#buttons{
+    margin:2%;
+    text-align: center;
+}
+.btn{
+    /* width:10vw; */
+    background-color: rgb(245, 111, 156);
+    color:darkred;
+    padding:5px;
+    margin:2%;
+    cursor: pointer;
+    border:1px rgba(156, 5, 31, 0.384) solid;
+    box-sizing: border-box;
+    box-shadow: 0.2rem 0.2rem pink;
+    font-weight: bold;
+   /* word-wrap: break-word;  */
+}
+#barboard{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    margin:10px;
+}
+.bar{
+    background: blue;
+    border: 1px solid #000;
+    width: 10px;
+    /* margin:1px; */
+}
+.sliders{
+text-align: center;
+}
+
+.slide{
+    height:5px;
+}
+label{
+    font-weight: bold;
+    color: rgb(250, 75, 133);
+    text-shadow: 0.1rem  0.1rem 0.1rem rgba(39, 38, 3, 0.226);
+    margin:2%;
+    margin-right: 5px;
+}
+#msg{
+    width:32rem;
+    font-size: larger;
+    margin-top: 5%;
+    color:crimson;
+    font-weight: bold;
+    text-shadow: 0.1rem  0.1rem 0.1rem rgba(0, 0, 0, 0.253);
+    word-wrap: break-word;
+}
+@media only screen and (min-width:800px) {
+    .btn{
+        padding: 10px;
+    }
+}
