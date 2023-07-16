@@ -1,11 +1,11 @@
 *{
     margin:0;
     padding:0;
-    /* background-color: #000; */
+    
 }
 #heading{
     text-align: center;
-    color: rgb(253, 82, 168);
+    color: rgb(245, 111, 156);
     font-family:'Courier New', Courier, monospace;
     text-shadow: 0.1rem 0.2rem 0.2rem rgba(31, 1, 1, 0.863);
     margin-top:2%;
@@ -36,7 +36,8 @@
     margin:10px;
 }
 .bar{
-    background: blue;
+    /* blue */
+    background: rgb(121, 200, 239); 
     border: 1px solid #000;
     width: 10px;
     /* margin:1px; */
@@ -59,10 +60,13 @@ label{
     width:32rem;
     font-size: larger;
     margin-top: 5%;
+    padding:15px;
     color:crimson;
     font-weight: bold;
-    text-shadow: 0.1rem  0.1rem 0.1rem rgba(0, 0, 0, 0.253);
+    border-radius: 5px;
     word-wrap: break-word;
+    box-sizing: border-box;
+    box-shadow: 0.5rem 0.5rem 0.7rem rgba(246, 155, 155, 0.666);
 }
 @media only screen and (min-width:800px) {
     .btn{
